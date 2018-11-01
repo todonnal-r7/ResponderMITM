@@ -1,4 +1,6 @@
-# ResponderMITM is a modified copy of the original Responder.py packaged with the Responder Man-in-the-Middle tool.
+# ResponderMITM
+
+This is a modified copy of the original Responder.py packaged with the Responder Man-in-the-Middle tool.
 
 There is only one modification that has been made. This version listens on port 4445 rather than 445.
 
