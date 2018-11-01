@@ -10,3 +10,5 @@ Once all traffic between our victims is flowing through our attack host, we can 
 and have Repsonder do its thing. Watch the hashes roll in.
 
 Example IPTables rule: iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 445 -j REDIRECT --to-port 4445
+
+*** This script has dependencies in the original Responder package and should be run from the same folder as the original Responder.py.***
